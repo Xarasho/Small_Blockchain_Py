@@ -1,3 +1,7 @@
+def lightning_hash(data):
+    return data + '*'
+
+
 class Block:
     def __init__(self, data, hash, last_hash):
         self.data = data
